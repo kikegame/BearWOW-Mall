@@ -17,72 +17,58 @@ body {
     text-shadow: rgba(0, 0, 0, .23) 2px 0 2px;
     color: #fff;
     background: transparent;
+    -webkit-animation-name: down;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 5;
 }
 .falling-01 {
-    position: absolute;
-    -webkit-animation: falling01 8s;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: 14;
+    -webkit-animation-name: falling01;
 }
 .falling-02 {
-    position: absolute;
-    -webkit-animation: falling02 8s;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: 14;
+    -webkit-animation-name: falling02;
 }
 .speed-01 {
-    -webkit-animation: down 15s;
+    -webkit-animation-duration: 15s;
     -webkit-animation-delay: 2s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: 5;
 }
 .speed-02 {
-    -webkit-animation: down 16s;
+    -webkit-animation-duration: 16s;
     -webkit-animation-delay: 4s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: 5;
 }
 .speed-03 {
-    -webkit-animation: down 17s;
+    -webkit-animation-duration: 17s;
     -webkit-animation-delay: 6s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: 5;
 }
 .speed-04 {
-    -webkit-animation: down 18s;
+    -webkit-animation-duration: 18s;
     -webkit-animation-delay: 8s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: 5;
 }
 .speed-05 {
-    -webkit-animation: down 19s;
+    -webkit-animation-duration: 19s;
     -webkit-animation-delay: 10s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: 5;
 }
 .speed-06 {
-    -webkit-animation: down 20s;
+    -webkit-animation-duration: 20s;
     -webkit-animation-delay: 12s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: 5;
 }
 .speed-07 {
-    -webkit-animation: down 21s;
+    -webkit-animation-duration: 21s;
     -webkit-animation-delay: 13s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: 5;
 }
 .speed-08 {
-    -webkit-animation: down 22s;
+    -webkit-animation-duration: 22s;
     -webkit-animation-delay: 14s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: 5;
 }
 @-webkit-keyframes down {
     0% { top: 0; }
     100% { top: 100%; }
+}
+.falling-01, .falling-02 {
+    position: absolute;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: 14;
 }
 @-webkit-keyframes falling01 {
     0% { left: 0; -webkit-transform: rotate(0deg); }
