@@ -1,0 +1,280 @@
+﻿.MyBearHead {
+	text-align:left;
+	font:21px "microsoft yahei";
+	margin:10px 0;
+}
+.MyMainLeft {
+	float:left;
+	width:160px;
+	height:auto;
+}
+.MainMenu {
+	text-align:left;
+}
+.MainMenu dl {
+	width:158px;
+	padding-bottom:12px;
+	border:1px solid #f3f3f3;
+	margin:0;
+}
+.MainMenu dt {
+	width:118px;
+	height:24px;
+	line-height:24px;
+	padding:0 20px;
+	font-weight:bold;
+	background:#f3f3f3;
+	position:relative;
+}
+.MainMenu dt b {
+	display:block;
+	position:absolute;
+	top:8px;
+	left:140px;
+	width:9px;
+	height:5px;
+	background:url(../images/index_icon.png) -191px -2px no-repeat;
+	font-size: 0;
+	line-height: 0;
+}
+.MainMenu dd {
+	width:98px;
+	height:24px;
+	line-height:24px;
+	padding:0 30px;
+}
+.MyMainRight {
+	float:right;
+	width:830px;
+}
+.userInfoBox {
+	color:#999999;
+	width:810px;
+	border-top:2px solid #cc9d58;
+	background:#FFFDEE;
+	padding:10px;
+	overflow:hidden;
+}
+.userInfoBox a {
+	color:#005ea7;
+}
+.userInfoBox a:hover {
+	color:#D9B765;
+}
+.userInfoBox dt {
+	color:#005ea7;
+}
+.userIcon {
+	float:left;
+	width:130px;
+}
+.userIcon img {
+	width:120px;
+	height:120px;
+	border:5px solid #fff;
+}
+.userInfo {
+	float:left;
+	text-align:left;
+	width:580px;
+	height:60px;
+	margin-left:10px;
+}
+.userInfo h2 {
+	font-size:21px;
+	color:#005ea7;
+}
+.userInfo span {
+	font-size:12px;
+	font-weight:normal;
+	position:relative;
+}
+.userVipBox p {
+	display:inline;
+}
+.userVipIcon {
+	float:left;
+	display:block;
+	width:16px;
+	height:15px;
+	background:url(../images/index_icon.png) -286px -69px no-repeat;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.accoSafe {
+	float:left;
+	text-align:left;
+	width:201px;
+	height:88px;
+	margin-left:10px;
+}
+.accoSafe h4 {
+	float:left;
+}
+.icon-rank01  {
+	float:left;
+	width:131px;
+	height:16px;
+	margin:5px 0;
+	background:url(../images/index_icon.png) -222px -183px no-repeat;
+}
+.accoSafe dt {
+	width:201px;
+	overflow:hidden;
+}
+.accoSafe dd {
+	margin-left:70px;
+	width:131px;
+	overflow:hidden;
+}
+.accoSafe a {
+	float:left;
+}
+.PW-rank span {
+	float:left;
+	display:block;
+	margin:3px 3px 0 0;
+	width:24px;
+	height:11px;
+	font-size:0;
+	line-height:0;
+	background:url(../images/index_icon.png) -78px -179px no-repeat;
+}
+.Email-rank span {
+	float:left;
+	display:block;
+	margin:3px 7px 0 3px;
+	width:16px;
+	height:15px;
+	background:url(../images/index_icon.png) -2px -187px no-repeat;
+}
+.userRemind {
+	float:left;
+	margin-left:10px;
+	width:440px;
+	height:108px;
+	border:1px solid #ffe1a4;
+	background:#fffdf8;
+}
+.userRemind dl {
+	padding:5px 10px;
+	height:25px;
+	border-top:1px solid #ffe1a4;
+}
+.userRemind dt {
+	float:left;
+	color:#333333;
+}
+.userRemind dd {
+	float:left;
+	margin-right:12px;
+}
+.recentOrders {
+	width:830px;
+}
+.RO_title {
+	width:830px;
+	overflow:hidden;
+}
+.RO_title a {
+	display:inline;
+	float:right;
+	margin-top:8px;
+}
+.RO_title h3 {
+	display:inline;
+	float:left;
+}
+.recentOrders a {
+	color:#005ea7;
+}
+.recentOrders a:hover {
+	color:#D9B765;
+}
+.recentOrders table {
+	width:830px;
+	border-top:1px solid #cc9d58;
+	border-bottom:1px solid #feeed5;
+}
+.recentOrders table tr th {
+	background:#FFFDEE;
+}
+.recentProduct {
+	width:300px;
+	text-align:left;
+}
+.recentProduct img {
+	float:left;
+	width:60px;
+	height:60px;
+}
+.recentProduct a p {
+	float:left;
+	width:18em;
+	height:38px;
+	line-height:19px;
+	margin:11px 12px;
+}
+.recommend {
+	width:830px;
+}
+.recommendTabTitle {
+	margin-top:20px;
+	width:830px;
+	border-bottom:1px solid #cc9d58;
+	overflow:hidden;
+}
+.RTTA {
+	float:left;
+	font-weight:bold;
+	padding:3px 8px;
+	border:1px solid #e7e7e7;
+	line-height
+	background-image: -moz-linear-gradient(top, #fefefe, #f1f1f1); /* Firefox */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fefefe), color-stop(1, #f1f1f1)); /* Saf4+, Chrome */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#f1f1f1', GradientType='0'); /* IE*/
+}
+.RTTA:hover {
+	color:#fff;
+	text-decoration:none;
+	border:1px solid #cc9d58;
+	background-image: -moz-linear-gradient(top, #e5b163, #d9a85d); /* Firefox */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e5b163), color-stop(1, #d9a85d)); /* Saf4+, Chrome */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5b163', endColorstr='#d9a85d', GradientType='0'); /* IE*/
+}
+#infocusRTTA {
+	color:#fff;
+	border:1px solid #cc9d58;
+	background-image: -moz-linear-gradient(top, #e5b163, #d9a85d); /* Firefox */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e5b163), color-stop(1, #d9a85d)); /* Saf4+, Chrome */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5b163', endColorstr='#d9a85d', GradientType='0'); /* IE*/
+}
+.recommendNav {
+	float:right;
+	width:39px;
+	height:18px;
+	margin-top:7px;
+	overflow:hidden;
+}
+.recommendNav li {
+	float:left;
+}
+.recommendNav li a {
+	float:left;
+	display:inline;
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	background:#d6d6d6;
+	margin-right:3px;
+}
+.recommendNav li a:hover {
+	background:#cc9d58;
+}
+#infocusRecommend a {
+	background:#cc9d58;
+}
+.recommendProduct-list li {
+	float:left;
+}

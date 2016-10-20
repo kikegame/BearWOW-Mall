@@ -1,0 +1,275 @@
+﻿.orderMenu {
+	width:828px;
+	border:1px solid #f3f3f3;
+	overflow:hidden;
+}
+.orderMenu a {
+	color:#005ea7;
+}
+.orderMenu a:hover {
+	color:#D9B765;
+}
+.OMhead {
+	width:100%;
+	height:36px;
+	border-bottom:2px solid #D9B765;
+}
+.OMhead h2 {
+	float:left;
+	margin-left:1em;
+	line-height:36px;
+}
+.OMhead a {
+	float:right;
+	display:block;
+	width:90px;
+	height:16px;
+	margin:10px 0;
+	margin-right:12px;
+}
+.OMhead em {
+	float:left;
+	font-style:normal;
+	line-height:16px;
+}
+.OMhead span {
+	float:right;
+	display:block;
+	height:13px;
+	width:12px;
+	background:url(../images/index_icon.png) -97px -120px no-repeat;
+}
+.orderShortcut {
+	float:left;
+	width:550px;
+	margin:10px;
+	overflow:hidden;
+}
+.orderShortcut dl {
+	width:550px;
+	overflow:hidden;
+}
+.orderShortcut dl dt {
+	float:left;
+}
+.orderShortcut dl dd {
+	float:left;
+	margin-right:1em;
+}
+.searchOrder {
+	float:right;
+	margin:10px;
+}
+.searchOrder [type=text] {
+	width:13em;
+	height:16px;
+	color:#333;
+	line-height:16px;
+	padding:4px;
+}
+.searchOrder [type=button] {
+	padding:0.2em 0.3em;
+}
+.orderTable {
+	margin-top:10px;
+	border-collapse:collapse;
+}
+.orderTable a {
+	color:#005ea7;
+}
+.orderTable a:hover {
+	color:#D9B765;
+}
+.orderTable td {
+	padding:5px;
+	vertical-align: top;
+}
+.orderInfoTitle td span {
+	margin-right:1em;
+}
+.orderList tr td {
+	border:1px solid #E6E6E6;
+}
+.orderInfo {
+	width:318px;
+}
+.addressee {
+	width:90px;
+}
+.actualPayment {
+	width:90px;
+}
+.amount {
+	width:90px;
+}
+.tradeStatus {
+	width:120px;
+}
+.operate {
+	width:120px;
+}
+.orderTitle tr {
+	border:1px solid #E6E6E6;
+	background:#F9F9F9;
+}
+.orderTitle tr th {
+	padding:3px 0;
+}
+#sepRow td {
+	border:none;
+}
+.orderInfoTitle td {
+	text-align:left;
+	background:#f3f3f3;
+}
+.orderContent img {
+	float:left;
+	width:80px;
+	height:80px;
+}
+.orderContent p {
+	float:right;
+	text-align:left;
+	width:220px;
+	height:32px;
+	margin:4px 0;
+}
+.orderLinks span {
+	display:block;
+	width:107px;
+}
+.orderSuccess a {
+	color:#4C8D00;
+}
+.Add2ShopCartAgain a {
+	margin:0 auto;
+	display:block;
+	width:37px;
+	height:15px;
+	padding:1px 5px 5px 3px;
+	border:1px solid #E6E6E6;
+	background-image: -moz-linear-gradient(top, #fefefe, #f1f1f1); /* Firefox */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fefefe), color-stop(1, #f1f1f1)); /* Saf4+, Chrome */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#f1f1f1', GradientType='0'); /* IE*/
+}
+/*评论页面*/
+.commentTable {
+	width:828px;
+	border:1px solid #e5e5e5;
+	border-collapse:collapse;
+}
+.commentTable a {
+	color: #005ea7;
+}
+.commentTable b {
+	color: #005ea7;
+}
+.commentTable th {
+	padding: 5px 0;
+	font-weight: bold;
+	background: #f9f9f9;
+	border-bottom: 1px solid #e5e5e5;
+}
+.commentTable td {
+	border-bottom: 1px solid #e5e5e5;
+}
+.commentTableImg img {
+	width:80px;
+	height:80px;
+}
+.commentFrom {
+	margin-top: 20px;
+	width:788px;
+	padding: 20px;
+	text-align: left;
+	color: #423a27;
+	background:#fffdf7;
+	border:1px solid #edd28b;
+	position: relative;
+}
+#commentFromArrow {
+	position: absolute;
+	top:-12px;
+	left: 736px;
+	border-left:12px solid transparent;
+	border-right:12px solid transparent; 
+	border-bottom:12px solid #edd28b; 
+	width:0; 
+	height:0;
+}
+.commentFrom span {
+	display:block;
+	margin-bottom: 20px;
+}
+.commentFrom  label >  b {
+	color:#ff0000;
+}
+.commentFrom > span > label {
+	margin-right:10px;
+}
+.scoreRadio {
+	overflow: hidden;
+}
+.scoreRadio > label {
+	float:left;
+}
+.scoreRadio input {
+	float:left;
+}
+.scoreRadio1,.scoreRadio2,.scoreRadio3 {
+	display: block;
+	line-height: 15px;
+	width:76px;
+	height:15px;
+	float:left;
+	margin-right: 50px;
+}
+.scoreRadio3 {
+	background:url(../images/index_icon.png) -161px -243px no-repeat;
+}
+.scoreRadio2 {
+	background:url(../images/index_icon.png) -161px -258px no-repeat;
+}
+.scoreRadio1 {
+	background:url(../images/index_icon.png) -161px -273px no-repeat;
+}
+.featuredTextLists {
+	overflow: hidden;
+}
+.featuredLabel {
+	float: left;
+}
+.featuredTextLists div {
+	float: left;
+	display: block;
+	width:auto;
+	padding: 5px 10px;
+	margin-right: 10px;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+}
+.commentTextarea {
+	width:700px;
+	color:#666;
+	background: #fff;
+	border: 1px solid #abadb3;
+	font-size: 14px;
+	padding: 5px 5px;
+	margin: 0;
+}
+#fuckCSS label,#fuckCSS label b {
+	vertical-align: top;
+}
+.submitComment {
+	margin-left: 54px;
+	border: none;
+	color: #fff;
+	font: 16px "microsoft yahei";
+	padding: 8px 25px;
+	border-radius: 3px;
+	background: #cc8633;
+}
+#errorText {
+	color:#ff0000;
+	margin-left: 54px;
+}

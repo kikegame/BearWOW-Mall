@@ -1,0 +1,189 @@
+﻿/*登录界面*/
+.width-900 {
+	margin:0 auto;
+	width:900px;
+	padding:10px 0;
+}
+.tip-head {
+	width:auto;
+	height:56px;
+}
+.tip-head img {
+	width:198px;
+	height:56px;
+}
+.tip-head a {
+	display:block;
+	width:198px;
+	height:56px;
+	float:left;
+}
+.tip-head h1 {
+	font: 21px "微软雅黑";
+	color:#333333;
+	line-height:36px;
+	border-left:1px solid #ccc;
+	margin:10px;
+	padding:0 10px;
+	float:left;	
+}
+.login-banner {
+	width:894px;
+	overflow:hidden;
+	background:#fff;
+	border-top:3px solid #D9B765;
+	margin-top:20px;
+}
+.login-banner-img {
+	float:left;
+}
+.login-form {
+	color:#999999;
+	float:right;
+	width:340px;
+	padding:20px;
+	position:relative;
+}
+.login-form label {
+	color:#999999;
+}
+.login-form-box h2{
+	font-family:"微软雅黑";
+	color:#D9B765;
+	display:inline;
+	float:left;
+}
+.login-form-box p {
+	float:right;
+}
+.userID {
+	width:324px;
+	height:24px;
+	font-size:14px;
+	line-height:24px;
+	margin:10px 0;
+	padding:6px;
+	border:1px solid #cccccc;
+}
+.user-ico {
+	width:24px;
+	height:24px;
+	position: absolute;
+	top:112px;
+	right:29px;
+	background:url(../images/index_icon.png) -274px -269px no-repeat;
+}
+.password-ico {
+	width:24px;
+	height:24px;
+	position: absolute;
+	top:190px;
+	right:29px;
+	background:url(../images/index_icon.png) -274px -294px no-repeat;
+}
+.password-ico2 {
+	width:24px;
+	height:24px;
+	position: absolute;
+	top:268px;
+	right:29px;
+	background:url(../images/index_icon.png) -274px -294px no-repeat;
+}
+.userPW {
+	width:324px;
+	height:24px;
+	font-size:14px;
+	line-height:24px;
+	margin:10px 0;
+	padding:6px;
+	border:1px solid #cccccc;
+}
+.findPassword {
+	float:right;
+}
+.btn-login {
+	width:100%;
+	height:36px;
+	background:url(../images/index_icon.png) 0px -320px no-repeat;
+	margin:10px 0;
+	border:none;
+}
+.btn-login:hover {
+	background:url(../images/index_icon.png) 0px -356px no-repeat;
+}
+/*注册页面*/
+.captcha-label {
+	display:block;
+}
+.reg-form span {
+	font-size:14px;
+	font-family: "????";
+	line-height:18px;
+	margin-right:5px;
+	font-weight:normal;
+	color:#F00;
+}
+.captcha {
+	float:left;
+	width:130px;
+	height:24px;
+	font-size:14px;
+	line-height:24px;
+	margin:10px 0;
+	padding:6px;
+	border:1px solid #cccccc;
+}
+.captcha-img {
+	float:right;
+	margin:10px 0;
+}
+.captcha-img img {
+	float:left;
+}
+.captcha-img a {
+	float:right;
+	height:24px;
+	margin:8px 6px 4px;
+}
+.reg-login {
+	width:100%;
+	height:36px;
+	background:url(../images/index_icon.png) 0px -394px no-repeat;
+	margin:10px 0;
+	border:none;
+}
+.reg-login:hover {
+	background:url(../images/index_icon.png) 0px -430px no-repeat;
+}
+/*登录注册层*/
+.loginRegBox {
+	width:380px;
+	background:#fff;
+	overflow:hidden;
+}
+.loginRegBox form {
+	float:none;
+}
+.loginRegBoxTitle {
+	width:380px;
+	height:32px;
+	background:#D9B765;
+}
+.loginRegBoxTitle h1 {
+	float:left;
+	margin-left:0.3em;
+	font-size:18px;
+	line-height:32px;
+	color:#fff;
+}
+.ExitLoginReg {
+	float:right;
+	display:block;
+	margin:8px;
+	width:14px;
+	height:13px;
+	background:url(../images/index_icon.png) -216px -1px no-repeat;
+}
+.ExitLoginReg:hover {
+	background:url(../images/index_icon.png) -231px -1px no-repeat;
+}

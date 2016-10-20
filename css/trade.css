@@ -1,0 +1,142 @@
+﻿.tradeBody {
+	width:998px;
+	border:1px solid #ddd;
+	text-align:left;
+}
+.tradeBody a {
+	color:#005ea7;
+}
+.tradeHead {
+	width:998px;
+	height:36px;
+	background-color:#f7f7f7;
+	border-bottom:1px solid #e5e5e5;
+	text-align:left;
+}
+.tradeHead h1 {
+	margin-left:1em;
+	font-size:18px;
+	line-height:36px;
+}
+.tradeBody h2 {
+	font-size:14px;
+	line-height:21px;
+}
+.confirmAddress {
+	width:978px;
+	margin:10px;
+}
+.tradeAddressList {
+	width:978px;
+	padding:5px 0;
+}
+.tradeAddressList a {
+	margin-left:1em;
+}
+.addNewAddress div {
+	display:block;
+	width:978px;
+	height:20px;
+	margin:10px 0;
+}
+.addNewAddress label {
+	display:block;
+	width:96px;
+	text-align:right;
+	float:left;
+}
+.addNewAddress input {
+	border: 1px solid #ccc;
+	font-size:12px;
+	padding:3px;
+	float:left;
+}
+.addNewAddress select {
+	float:left;
+}
+.addNewAddress label em {
+	color:#FF0000;
+	font-style:normal;
+	font-family:sans-serif;
+}
+.confirmPayment {
+	width:978px;
+	margin:10px;
+}
+.tradeProductListTitle {
+	width:958px;
+	padding:15px 20px 0 20px;
+	overflow:hidden;
+}
+.tradeProductListTitle h2 {
+	float:left;
+}
+.tradeProductListTitle a {
+	float:right;
+}
+.tradeProductList {
+	width:958px;
+	margin:10px 20px;
+}
+.tradeH1 {
+	width:40%;
+}
+.tradeH2,.tradeH3,.tradeH4 {
+	width:20%;
+}
+.tradeProductList thead tr th {
+	background-color:#eee;
+}
+
+.tradeProducts a {
+	display:block;
+	width:100%;
+}
+.tradeProducts a img {
+	float:left;
+	width:80px;
+	height:80px;
+	border:1px solid #ccc;
+}
+.tradeProducts a p {
+	float:left;
+	text-align:left;
+	height:32px;
+	margin:4px 1em;
+}
+.tradeFoot {
+	width:998px;
+	height:48px;
+	background-color:#f7f7f7;
+	text-align:right;
+}
+.tradeFoot button {
+	float:right;
+	margin:6px 20px 0 0;
+	width:135px;
+	height:36px;
+}
+.tradeTotal {
+	font-family:"microsoft yahei";
+	float:right;
+	margin-right:20px;
+	font-weight:bold;
+}
+.tradeTotal em {
+	font-style:normal;
+	font-size:1.62em;
+	color:#D9B765;
+}
+.tradeTotal b {
+	color:#D9B765;
+}
+.checkoutSubmit {
+	border:none;
+	font-size:0;
+	width: 135px;
+	height: 36px;
+	background:url(../images/index_icon.png) -356px -204px no-repeat;
+}
+.checkoutSubmit:hover {
+	background:url(../images/index_icon.png) -356px -241px no-repeat;
+}

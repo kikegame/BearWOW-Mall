@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>我的订单 - 小熊哇塞</title>
+<link rel="shortcut icon" href="file:///F:/HTML/favicon.ico"/>
+<link href="css/basic.css" rel="stylesheet" type="text/css">
+<link href="css/userInfo.css" rel="stylesheet" type="text/css">
+<link href="css/order.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<!--顶部菜单-->
+<div id="head_menu_box">
+<div id="head_menu">
+
+<div class="bookMarkBearWOW">
+	<a onclick="javascript:try{window.external.AddFavorite(window.location.href, document.title);} catch(e){(window.sidebar)?window.sidebar.addPanel(document.title,window.location.href,''):alert('请使用按键 Ctrl+d，收藏小熊哇塞');}" target="_self" href="javascript:void(0);">收藏小熊哇噻</a>
+	<span class="bookmark_icon"></span>
+</div>
+
+<div id="my_bearWOW">
+<a href="reg.html">免费注册</a>
+<a href="login.html">登录</a>
+<a href="order.html">我的订单</a>
+<a href="myBearWOW.html">我的小熊</a>
+<a href="help/help.html">帮助中心</a>
+<span id="phone_no"></span>
+</div>
+
+</div>
+</div>
+<div class="body_box">
+	<div id="logo_search" class="clearfix">
+	<a class="logo logo_index" href="index.html"></a>
+	<form action="" method="get" id="search_box">
+		<input name="" type="text" placeholder="输入更精彩..." id="search_text" />
+		<input name="" type="button" id="search_button" />
+		<ul id="proposal" >
+			<li>热门搜索：</li>
+			<li><a href="">时装鞋</a></li>
+			<li><a href="">马甲/背心</a></li>
+			<li><a href="">套装</a></li>
+			<li><a href="">羽绒服</a></li>
+			<li><a href="">围巾</a></li>
+		</ul>
+	</form>
+	<a href="cart.html" id="cart">购物车（<span>0</span>）件</a>
+	</div>
+</div>
+<div id="menu_box">
+<ul id="menu">
+	<li class="menu_link" id="sort"><a href="#">全部商品分类<b></b></a></li>
+	<li class="menu_link"  id="onfocus"><a href="index.html">首页</a></li>
+	<li class="menu_link"><a href="detail.html">男童专场</a></li>
+	<li class="menu_link"><a href="search.html">女童专场</a></li>
+	<li class="menu_link"><a href="#">时尚潮流</a></li>
+	<li class="menu_link"><a href="#">户外生活</a></li>
+	<li class="menu_link"><a href="#">限时特价</a></li>
+</ul>
+</div>
+<div class="body_box">
+<h1 class="MyBearHead"><a href="myBearWOW.html">我的小熊</a></h1>
+<div class="MyMainLeft">
+	<div class="MainMenu">
+		<dl>
+			<dt>我的交易<b></b></dt>
+			<dd><a href="order.html">我的订单</a></dd>
+			<dd><a href="#">我的收藏</a></dd>
+			<dd><a href="#">我的积分</a></dd>
+			<dd><a href="#">浏览历史</a></dd>
+			<dd><a href="#">退修/退货</a></dd>
+		</dl>
+		<dl>
+			<dt>个人中心<b></b></dt>
+			<dd><a href="#">收货地址</a></dd>
+			<dd><a href="#">个人资料</a></dd>
+			<dd><a href="#">帐号安全</a></dd>
+			<dd><a href="#">会员等级</a></dd>
+			<dd><a href="#">我的评价</a></dd>
+		</dl>
+		<dl>
+			<dt>客户服务<b></b></dt>
+			<dd><a href="#">联系客服</a></dd>
+			<dd><a href="#">退换货</a></dd>
+			<dd><a href="#">修改订单</a></dd>
+			<dd><a href="#">我的投诉</a></dd>
+		</dl>
+	</div>
+
+</div>
+<!--Order-->
+<div class="MyMainRight">
+	<table class="commentTable">
+		<tr>
+			<th>图片</th>
+			<th>商品标题</th>
+			<th>数量</th>
+			<th>价格</th>
+			<th>成交时间</th>
+			<th>评分</th>
+			<th>评论</th>
+		</tr>
+		<tr>
+			<td class="commentTableImg"><img src="http://www.gzxxws.com/webmap/product_map/s/20140201322593789.jpg"></td>
+			<td><p>女童夏款连衣裙</p></td>
+			<td>1</td>
+			<td><b>¥245.00</b></td>
+			<td>2014-03-15 15:28:08</td>
+			<td>好评</td>
+			<td>还可以哦</td>
+		</tr>
+		<tr>
+			<td class="commentTableImg"><img src="http://www.gzxxws.com/webmap/product_map/s/20140201324135924.jpg"></td>
+			<td><p>女童夏款连衣裙</p></td>
+			<td>2</td>
+			<td><b>¥245.00</b></td>
+			<td>2014-03-15 15:28:08</td>
+			<td><a href="comment.html">评价</a></td>
+			<td></td>
+		</tr>
+	</table>
+</div>
+<!--End Order-->
+</div>
+
+<!--尾部Banner-->
+<div class="body_box">
+<hr class="hr-solid">
+<div id="foot_menu" class="clearfix">
+<span class="foot_icon" id="official"></span>
+<dl>
+	<dt>官方保障</dt>
+	<dd><a href="#">正品保证</a></dd>
+	<dd><a href="#">提供发票</a></dd>
+</dl>
+<span class="foot_icon" id="guide"></span>
+<dl>
+	
+	<dt>购物指南</dt>
+	<dd><a href="#">购物流程</a></dd>
+	<dd><a href="#">常见问题</a></dd>
+	<dd><a href="#">联系客服</a></dd>
+</dl>
+<span class="foot_icon" id="delivery"></span>
+<dl>
+	<dt>支付方式</dt>
+	<dd><a href="#">货到付款</a></dd>
+	<dd><a href="#">在线支付</a></dd>
+	<dd><a href="#">分期付款</a></dd>
+	<dd><a href="#">邮局汇款</a></dd>
+	<dd><a href="#">公司转账</a></dd>
+</dl>
+<span class="foot_icon" id="payment"></span>
+<dl>
+	<dt>配送方式</dt>
+	<dd><a href="#">上门自提</a></dd>
+	<dd><a href="#">配送服务查询</a></dd>
+	<dd><a href="#">配送费收取标准</a></dd>
+</dl>
+<span class="foot_icon" id="customer_service"></span>
+<dl>
+	<dt>售后服务</dt>
+	<dd><a href="#">售后政策</a></dd>
+	<dd><a href="#">退款说明</a></dd>
+	<dd><a href="#">返修/退换货</a></dd>
+	<dd><a href="#">取消订单</a></dd>
+</dl>
+</div>
+<p id="copyright">Copyright 2013-2023 小熊哇塞童装商城 版权所有 粤ICP备00000000号-1</p>
+</div>
+</body>
+</html>

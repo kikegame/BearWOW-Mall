@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>售后服务 - 小熊哇塞</title>
+<link rel="shortcut icon" href="file:///F:/HTML/favicon.ico"/>
+<link href="css/basic.css" rel="stylesheet" type="text/css">
+<link href="css/cart.css" rel="stylesheet" type="text/css">
+<link href="css/returnOfGoods.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<!--顶部菜单-->
+<div id="head_menu_box">
+<div id="head_menu">
+
+<div class="bookMarkBearWOW">
+	<a onclick="javascript:try{window.external.AddFavorite(window.location.href, document.title);} catch(e){(window.sidebar)?window.sidebar.addPanel(document.title,window.location.href,''):alert('请使用按键 Ctrl+d，收藏小熊哇塞');}" target="_self" href="javascript:void(0);">收藏小熊哇噻</a>
+	<span class="bookmark_icon"></span>
+</div>
+
+<div id="my_bearWOW">
+<a href="reg.html">免费注册</a>
+<a href="login.html">登录</a>
+<a href="order.html">我的订单</a>
+<a href="myBearWOW.html">我的小熊</a>
+<a href="help/help.html">帮助中心</a>
+<span id="phone_no"></span>
+</div>
+
+</div>
+</div>
+
+<!--myChart-->
+<div class="body_box">
+	<div class="accountHead">
+		<a class="logo logo_index" href="index.html"></a>
+		<div class="accountChartBox">
+			<span class="returnOfGoodsPic01"></span>
+			<ul>
+				<li class="progressOnfocus">1.填写售后申请</li>
+				<li>2.填写退货快递/货运单号</li>
+				<li>3.收到退款/换货</li>
+			</ul>
+		</div>
+	</div>
+	<div class="returnBox clearfix">
+		<form class="ROG_form" action="returnOfGoods-2.html">
+			<div class="ROG_form_head clearfix">
+			<label><h2>申请服务：</h2></label>
+			<select>
+				<option>换货</option>
+				<option>退款</option>
+			</select>
+			<b class="ROG_OK">申请已成功提交，请耐心等待，我们尽快给您回复！</b>
+			</div>
+			<hr class="hr-solid"/>
+			<span>
+				<label>退款金额：</label>
+				<input type="text" readonly="true" value = "78" id="ROG_sum" class="textReadOnly ROG_text"/>
+			</span>
+			<span><label>退货数量：</label><input type="text" id="ROG_num" class="ROG_text" value="1"/></span>
+			<span class="textareaText"><label>退货原因：</label><textarea id="ROG_textarea" rows="3" cols="50">收到衣服时，发现衣服有破损的地方。</textarea></span>
+			<span><label>上传照片：</label><img src="images/damagedKids.jpg"><input type="file" class="ROG_file"></span>
+			<span><input type="submit" id="ROG_but" value = "修改"/></span>
+			<span id="errorText"></span>
+			<hr class="hr-solid"/>
+			<span class="cancelROG"><label>撤销申请：</label><input type="button" value="撤销"></span>
+		</form>
+		<div class="wasReturnGoods">
+			<h2>申请售后</h2>
+			<hr class="hr-solid"/>
+			<a href="#" class="ROG_product clearfix">
+				<img src="images/PL-01.jpg">
+				<h3>春款休闲套装</h3>
+			</a>
+			<hr class="hr-solid"/>
+			<dl class="ROG_productDetail">
+				<dt>单价：</dt><dd id="ROG_unitPrice">78</dd>
+				<dt>数量：</dt><dd id="ROG_maxNum">5</dd>
+				<dt>实付款：</dt><dd>390.00元</dd>
+				<dt>运费：</dt><dd>10.00元</dd>
+				<dt>订单编号：</dt><dd>551236424814226</dd>
+			</dl>
+			<hr class="hr-solid"/>
+			<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1444368283&site=qq&menu=yes"><img border="0" src="http://pub.idqqimg.com/wpa/images/counseling_style_52.png" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
+			<a class="moreContact" target="_black" href="http://www.gztztm.com/contact.php">更多联系方式</a>
+		</div>
+		</div>
+</div>
+<!--End myChart-->
+
+<div class="body_box">
+<hr class="hr-solid">
+<div id="foot_menu" class="clearfix">
+<span class="foot_icon" id="official"></span>
+<dl>
+	<dt>官方保障</dt>
+	<dd><a href="#">正品保证</a></dd>
+	<dd><a href="#">提供发票</a></dd>
+</dl>
+<span class="foot_icon" id="guide"></span>
+<dl>
+	
+	<dt>购物指南</dt>
+	<dd><a href="#">购物流程</a></dd>
+	<dd><a href="#">常见问题</a></dd>
+	<dd><a href="#">联系客服</a></dd>
+</dl>
+<span class="foot_icon" id="delivery"></span>
+<dl>
+	<dt>支付方式</dt>
+	<dd><a href="#">货到付款</a></dd>
+	<dd><a href="#">在线支付</a></dd>
+	<dd><a href="#">分期付款</a></dd>
+	<dd><a href="#">邮局汇款</a></dd>
+	<dd><a href="#">公司转账</a></dd>
+</dl>
+<span class="foot_icon" id="payment"></span>
+<dl>
+	<dt>配送方式</dt>
+	<dd><a href="#">上门自提</a></dd>
+	<dd><a href="#">配送服务查询</a></dd>
+	<dd><a href="#">配送费收取标准</a></dd>
+</dl>
+<span class="foot_icon" id="customer_service"></span>
+<dl>
+	<dt>售后服务</dt>
+	<dd><a href="#">售后政策</a></dd>
+	<dd><a href="#">退款说明</a></dd>
+	<dd><a href="#">返修/退换货</a></dd>
+	<dd><a href="#">取消订单</a></dd>
+</dl>
+</div>
+<p id="copyright">Copyright 2013-2023 小熊哇塞童装商城 版权所有 粤ICP备00000000号-1</p>
+</div>
+</body>
+<script type="text/javascript">
+//验证售后表单
+var ROG_but =  document.getElementById("ROG_but");
+ROG_but.onclick = function () {
+	var ROG_textarea =  document.getElementById("ROG_textarea");
+	var chineseReg = /.*[\u4e00-\u9fa5]+.*$/;
+	if(ROG_textarea.value.length < 5) {
+		errorAlert("退货原因字数太少！");
+		ROG_textarea.focus();
+		return false;
+	} else if (!chineseReg.test(ROG_textarea.value)) {
+		errorAlert("请输入中文的退货原因！");
+		ROG_textarea.focus();
+		return false;
+	}
+	document.getElementById("errorText").style.display = "none";
+	return true;
+}
+var ROG_num =  document.getElementById("ROG_num");
+ROG_num.onblur  = function(){
+	var num = ROG_num.value;
+	var maxNum =  document.getElementById("ROG_maxNum");
+	var numReg =  /^\d+$/;
+	if(!numReg.test(num) || num == 0) {
+		errorAlert("你输入正确的数值！");
+		ROG_num.focus();
+		return false;
+	} else if(document.getElementById("ROG_num").value > parseInt(maxNum.innerHTML)) {
+		errorAlert("数量不能多于订购的数量！");
+		ROG_num.focus();
+		return false;
+	}
+	document.getElementById("errorText").style.display = "none";
+	document.getElementById("ROG_sum").value = document.getElementById("ROG_num").value * parseFloat(document.getElementById("ROG_unitPrice").innerHTML);
+}
+function errorAlert(errorString) {
+	document.getElementById("errorText").style.display = "block";
+	document.getElementById("errorText").innerHTML = errorString;
+}
+</script>
+</html>

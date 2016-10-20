@@ -1,0 +1,127 @@
+﻿.PChead {
+	margin-bottom: 10px;
+	border-bottom:1px solid #f2f2f2;
+	height:69px;
+	padding: 10px;
+	overflow: hidden;
+}
+.goodDegree {
+	float:left;
+	margin-left: 20px;
+}
+.goodDegree p {
+	margin: 0;
+}
+.goodComment {
+	font-style:normal;
+	font-size: 48px;
+	line-height: 48px;
+	color:#ffb000;
+}
+.goodComment span{
+	font-size: 18px;
+	line-height: 18px;
+}
+.commentDegree {
+	width:165px;
+	text-align: left;
+	float:left;
+	margin-left: 20px;
+}
+.commentDegree dl {
+	display: block;
+	overflow: hidden;
+}
+.commentDegree dt,.commentDegree dd {
+	float:left;
+}
+.commentDegree span {
+	float:left;
+	display: block;
+	background: #f2f2f2;
+	height:12px;
+	margin: 3px;
+	width: 100px;
+}
+#betterComment b,#goodComment b,#poorComment b {
+	display: block;
+	height:100%;
+	width:1%;
+	background: #ffb000;
+}
+.productCommentRight {
+	float:right;
+	width:279px;
+	margin-top: 6px;
+	text-align: center;
+}
+#productCommentBtn {
+	display: block;
+	padding: 5px 12px;
+	width:75px;
+	margin: 0 auto;
+	border-radius:3px;
+	font-size: 14px;
+	font-weight: bold;
+	color:#ffb000;
+	border:1px solid #f2f2f2;
+}
+.productCommentSelect {
+	overflow: hidden;
+}
+.productCommentSelect label {
+	float: left;
+	margin: 5px 5px 0 0;
+}
+.productCommentSelect select {
+	float: right;
+}
+.productCommentList {
+	width:100%;
+	border-collapse: collapse;
+}
+.productCommentList tr {
+	border-bottom:1px solid #f2f2f2;
+}
+.commentContent {
+	text-align: left
+}
+.commentContent p {
+	color:#333;
+	margin: 0.38em;
+}
+.commentContent span {
+	color:#999;
+}
+.productCommentUser,.productCommentLike {
+	width:10%;
+}
+.productCommentLike a {
+	color:#005ea7;
+}
+.productSupport {
+	text-align: left;
+	padding: 10px;
+}
+.productSupport h2 {
+	line-height: 1.62em;
+}
+.productTransaction {
+	margin: 10px 0;
+	width:100%;
+	border-collapse:collapse;
+}
+.productTransactionHead th {
+	padding: 5px 0;
+	font-weight: bold;
+	background: #f9f9f9;
+	border-bottom: 1px solid #e5e5e5;
+}
+.productTransaction td {
+	padding: 10px 0;
+}
+.productTransaction em {
+	font-style: normal;
+	font-weight: bold;
+	color: #cc9d58;
+}

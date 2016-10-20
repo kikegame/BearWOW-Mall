@@ -1,0 +1,145 @@
+﻿.returnBox {
+	border: 1px solid #e4e4e4;
+	overflow: hidden;
+}
+.returnOfGoodsPic01 {
+	display:block;
+	width:485px;
+	height:24px;
+	background:url(../images/index_icon.png) 0px -542px no-repeat;
+}
+.returnOfGoodsPic02 {
+	background:url(../images/index_icon.png) 0px -568px no-repeat;
+}
+.returnOfGoodsPic03 {
+	background:url(../images/index_icon.png) 0px -594px no-repeat;
+}
+.ROG_form {
+	float:left;
+	text-align: left;
+	width:728px;
+	height:100%;
+	padding: 10px;
+	border-right: 1px solid #e4e4e4;
+}
+.ROG_form_head {
+	text-align: left;
+	overflow: hidden;
+}
+.ROG_form_head h2 {
+	display: inline;
+}
+.ROG_form_head label,.ROG_form_head select {
+	float:left;
+}
+.ROG_form_head b {
+	float:right;
+	line-height: 24px;
+}
+#errorText {
+	margin-left: 124px;
+	display: none;
+	color: #cc8633;
+}
+.ROG_form em {
+	color: #ff0000;
+}
+.ROG_form span {
+	width:728px;
+	display: block;
+	margin: 15px 0;
+}
+.ROG_form span label {
+	padding: 0 10px 0 50px;
+}
+.ROG_text {
+	width: 10em;
+	height: 18px;
+	padding: 0.3em;
+	font-size: 18px;
+	line-height: 18px;
+	border: 1px solid #ccc;
+}
+.textareaText label,.textareaText em {
+	vertical-align: top;
+}
+.textareaText textarea {
+	border: 1px solid #ccc;
+}
+.ROG_file {
+	font-size: 12px;
+	padding: 5px;
+	height:24px;
+}
+#ROG_but {
+	margin-left: 124px;
+	border:none;
+	color:#fff;
+	font:16px "microsoft yahei";
+	padding: 8px 25px;
+	border-radius: 3px;
+	background: #cc8633;
+}
+.wasReturnGoods {
+	width:228px;
+	height:100%;
+	padding: 10px;
+	float:left;
+	text-align: left;
+}
+.ROG_product {
+	overflow: hidden;
+	height:100px;
+}
+.ROG_product img {
+	float: left;
+	width: 100px;
+	height:100px;
+}
+.ROG_product h3 {
+	float: left;
+	display: block;
+	margin-left:10px;
+}
+.ROG_productDetail {
+	overflow: hidden;
+}
+.ROG_productDetail dt {
+	float:left;
+	text-align: right;
+	display: block;
+	width:70px;
+	margin: 2px 0;
+}
+.ROG_productDetail dd {
+	text-align: left;
+	float:left;
+	display: block;
+	width:158px;
+	color:#000;
+	margin: 2px 0;
+}
+a.moreContact {
+	vertical-align: top;
+	color:#D9B765;
+}
+.cancelROG label {
+	vertical-align: bottom;
+}
+.cancelROG input {
+	border:none;
+	color:#fff;
+	font:16px "microsoft yahei";
+	padding: 4px 15px;
+	border-radius: 3px;
+	background: #2aba45;
+}
+.ROG_OK {
+	color:#D9B765;
+}
+.damagedKidsInfo {
+	float:left;
+}
+.damagedKids {
+	float:right;
+}

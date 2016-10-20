@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>订单结算页 - 小熊哇塞</title>
+<link rel="shortcut icon" href="file:///F:/HTML/favicon.ico"/>
+<link href="css/basic.css" rel="stylesheet" type="text/css">
+<link href="css/cart.css" rel="stylesheet" type="text/css">
+<link href="css/trade.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<!--顶部菜单-->
+<div id="head_menu_box">
+<div id="head_menu">
+
+<div class="bookMarkBearWOW">
+	<a onclick="javascript:try{window.external.AddFavorite(window.location.href, document.title);} catch(e){(window.sidebar)?window.sidebar.addPanel(document.title,window.location.href,''):alert('请使用按键 Ctrl+d，收藏小熊哇塞');}" target="_self" href="javascript:void(0);">收藏小熊哇噻</a>
+	<span class="bookmark_icon"></span>
+</div>
+
+<div id="my_bearWOW">
+<a href="reg.html">免费注册</a>
+<a href="login.html">登录</a>
+<a href="order.html">我的订单</a>
+<a href="myBearWOW.html">我的小熊</a>
+<a href="help/help.html">帮助中心</a>
+<span id="phone_no"></span>
+</div>
+
+</div>
+</div>
+<!--myChart-->
+<div class="body_box">
+	<div class="accountHead">
+		<a class="logo logo_index" href="index.html"></a>
+		<div class="accountChartBox">
+			<span class="progress-1 progress-2"></span>
+			<ul>
+				<li class="progressOnfocus">1.我的购物车</li>
+				<li>2.填写核对订单信息</li>
+				<li>3.成功提交订单</li>
+			</ul>
+		</div>
+	</div>
+	<form class="tradeBody">
+		<div class="tradeHead"><h1>填写并核对订单信息</h1></div>
+		<div class="confirmAddress">
+			<h2>收货人信息</h2>
+			<div class="tradeAddressList">
+				<input type="radio"name="customerAddress">
+				<label><b>张三</b>&nbsp; 广东广州市荔湾区沙面街道黄沙大道粤南大街25号至29号 &nbsp; 18888888888 &nbsp;</label>
+				<a href="#">编辑</a><a href="#">删除</a>
+			</div>
+			<div class="tradeAddressList">
+				<input type="radio" name="customerAddress">
+				<label>使用新地址</label>
+			</div>
+			<div class="addNewAddress">
+				<div>
+				<label><em>*</em>收货人：</label>
+				<input type="text">
+				</div>
+				<div>
+				<label><em>*</em>所在地区：</label>
+				<select class="changeArea">
+					<option value="">请选择：</option>
+					<option value="1">北京*</option>
+					<option value="2">上海*</option>
+					<option value="3">天津*</option>
+				</select>
+				<select class="changeArea">
+					<option value="">请选择：</option>
+					<option value="1">北京*</option>
+					<option value="2">上海*</option>
+					<option value="3">天津*</option>
+				</select>
+				<select class="changeArea">
+					<option value="">请选择：</option>
+					<option value="1">北京*</option>
+					<option value="2">上海*</option>
+					<option value="3">天津*</option>
+				</select>
+				</div>
+				<div>
+					<label><em>*</em>详细地址：</label>
+					<input type="text">
+				</div>
+				<div>
+					<label><em>*</em>手机号码：</label>
+					<input type="text">
+					<label>或&nbsp;&nbsp;固定电话：</label>
+					<input type="text">
+				</div>
+				<div>
+					<label><em>*</em>邮箱：</label>
+					<input type="text">
+				</div>
+			</div>
+		</div>
+		<hr class="hr-solid">
+		<div class="confirmPayment">
+			<h2>支付方式</h2>
+			<input type="radio"><label>支付宝支付</label><a href="#">[修改]</a>
+		</div>
+		<hr class="hr-solid">
+			<div class="tradeProductListTitle">
+				<h2>商品清单</h2>
+				<a href="#">返回购物车修改</a>
+			</div>
+			<table class="tradeProductList">
+				<colgroup>
+				<col class="tradeH1">
+				<col class="tradeH2">
+				<col class="tradeH3">
+				<col class="tradeH4">
+				</colgroup>
+				<thead>
+					<tr>
+						<th>商品</th>
+						<th>单价</th>
+						<th>数量</th>
+						<th>小计</th>
+					</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td class="tradeProducts">
+						<a href="#">
+							<img src="images/PL-02.jpg">
+							<p>女童春款，红色条纹上衣，红色条纹七分裤</p>
+							<p>颜色：红白色 尺码：115/60</p>
+						</a>
+					</td>
+					<td>100.00</td>
+					<td>1</td>
+					<td>100.00</td>
+				</tr>
+				</tbody>
+			</table>
+		<div class="tradeFoot">
+			<a href="Payment.html"><button type="submit" class="checkoutSubmit">提交订单</button></a>
+			<p class="tradeTotal">运费：<b>10元</b>，应付总额：<em>￥188.00元</em></p>
+		</div>
+	</form>
+</div>
+<!--End myChart-->
+
+<div class="body_box">
+<hr class="hr-solid">
+<div id="foot_menu" class="clearfix">
+<span class="foot_icon" id="official"></span>
+<dl>
+	<dt>官方保障</dt>
+	<dd><a href="#">正品保证</a></dd>
+	<dd><a href="#">提供发票</a></dd>
+</dl>
+<span class="foot_icon" id="guide"></span>
+<dl>
+	
+	<dt>购物指南</dt>
+	<dd><a href="#">购物流程</a></dd>
+	<dd><a href="#">常见问题</a></dd>
+	<dd><a href="#">联系客服</a></dd>
+</dl>
+<span class="foot_icon" id="delivery"></span>
+<dl>
+	<dt>支付方式</dt>
+	<dd><a href="#">货到付款</a></dd>
+	<dd><a href="#">在线支付</a></dd>
+	<dd><a href="#">分期付款</a></dd>
+	<dd><a href="#">邮局汇款</a></dd>
+	<dd><a href="#">公司转账</a></dd>
+</dl>
+<span class="foot_icon" id="payment"></span>
+<dl>
+	<dt>配送方式</dt>
+	<dd><a href="#">上门自提</a></dd>
+	<dd><a href="#">配送服务查询</a></dd>
+	<dd><a href="#">配送费收取标准</a></dd>
+</dl>
+<span class="foot_icon" id="customer_service"></span>
+<dl>
+	<dt>售后服务</dt>
+	<dd><a href="#">售后政策</a></dd>
+	<dd><a href="#">退款说明</a></dd>
+	<dd><a href="#">返修/退换货</a></dd>
+	<dd><a href="#">取消订单</a></dd>
+</dl>
+</div>
+<p id="copyright">Copyright 2013-2023 小熊哇塞童装商城 版权所有 粤ICP备00000000号-1</p>
+</div>
+</body>
+</html>

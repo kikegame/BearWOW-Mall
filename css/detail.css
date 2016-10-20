@@ -1,0 +1,359 @@
+﻿/*路径导航*/
+.breadcrumb {
+	width:1000px;
+	padding:10px 0px;
+	text-align:left;
+	font-family: "\5b8b\4f53";
+}
+/*大图*/
+.product-pic {
+	float:left;
+	width:450px;
+}
+#big-pic {
+	width:450px;
+	height:450px;
+}
+.big-pic-list {
+	margin:0 auto;
+	width:360px;
+}
+.big-pic-list li {
+	float:left;
+	margin:10px 3px 0px 3px;
+}
+.big-pic-list li a img {
+	width:60px;
+	height:60px;
+}
+.big-pic-list li a {
+	display:block;
+	width:60px;
+	height:60px;
+	border:2px solid #ffffff;
+}
+.big-pic-list li a:hover{
+	border:2px solid #D9B765;
+}
+/*商品信息*/
+.overview {
+	height:524px;
+}
+.product-info {
+	color:#666;
+	float:right;
+	width:530px;
+	height:430px;
+}
+.product-info dl {
+	width:530px;
+	margin:10px 0px;
+}
+.product-info h1 {
+	font:18px "microsoft yahei";
+	font-weight:bold;
+	line-height:1.62;
+}
+.product-info dt {
+	text-align:right;
+	float:left;
+	width:50px;
+}
+.product-info dd {
+	text-align:left;
+	float:left;
+	width:430px;
+	margin-left:20px;
+}
+.product-price strong {
+	font-size:32px;
+	line-height:32px;
+	color:#cc9d58;
+}
+.product-price p {
+	font-weight:bold;
+	color:#cccccc;
+	line-height:12px;
+	margin:0;
+}
+.product-color li {
+	float:left;
+	width:34px;
+	height:34px;
+	margin-right:5px;
+}
+.product-color li a {
+	display:block;
+	position:relative;
+	border:1px solid #cccccc;
+	margin:1px;
+}
+.product-color li a:hover{
+	border:2px solid #cc9d58;
+	margin:0px;
+}
+.product-color .onfocus-property {
+	border:2px solid #cc9d58;
+	margin:0px;
+}
+.product-color .onfocus-property i {
+	position:absolute;
+	right:0;
+	bottom:0;
+	display:block;
+	width:12px;
+	height:12px;
+	background:url(../images/index_icon.png) -63px -189px no-repeat;
+}
+.product-size .onfocus-property {
+	border:2px solid #cc9d58;
+	margin:0px;
+}
+.product-size .onfocus-property i {
+	position:absolute;
+	right:0;
+	bottom:0;
+	display:block;
+	width:12px;
+	height:12px;
+	background:url(../images/index_icon.png) -63px -189px no-repeat;
+}
+.product-color li a img {
+	width:30px;
+	height:30px;
+}
+.product-size li {
+	width:46px;
+	height:22px;
+	float:left;
+	margin-right:5px;
+	border:2px solid #fff;
+}
+.product-size li a {
+	color:#000;
+	display:block;
+	width:46px;
+	height:22px;
+	text-align:center;
+	line-height:22px;
+	border:1px solid #cccccc;
+	margin:1px;
+	position:relative;
+}
+.product-size li a:hover{
+	border:2px solid #cc9d58;
+	margin:0px;
+	text-decoration:none;
+}
+.buy-amount {
+	float:left;
+	color:#000;
+	margin:0;
+	padding:3px 3px;
+	width:42px;
+	height:20px;
+	border:1px solid #ccc;
+	border-right:none;
+}
+.btn-amount {
+	float:left;
+}
+.add-amount {
+	display:block;
+	width:15px;
+	height:15px;
+	background:url(../images/index_icon.png) -31px -138px no-repeat;
+}
+.cut-amount {
+	display:block;
+	width:15px;
+	height:14px;
+	border-top:none;
+	background:url(../images/index_icon.png) -31px -154px no-repeat;
+}
+.product-unit {
+	float:left;
+	margin-left:3px;
+	line-height:29px;
+}
+.buyIcon {
+	margin:10px 0 0 70px;
+	overflow:hidden;
+}
+.buyIcon a {
+	float:left;
+	margin-right:20px;
+}
+.fastBuy {
+	display:block;
+	width:138px;
+	height:41px;
+	background:url(../images/index_icon.png) -342px -283px no-repeat;
+}
+.fastBuy:hover {
+	background:url(../images/index_icon.png) -342px -325px no-repeat;
+}
+.add2Cart {
+	display:block;
+	width:137px;
+	height:40px;
+	background:url(../images/index_icon.png) -306px -68px no-repeat;
+}
+.add2Cart:hover {
+	background:url(../images/index_icon.png) -306px -108px no-repeat;
+}
+/*收藏和分享*/
+.collect-share {
+	float:right;
+	width:460px;
+	height:20px;
+}
+.collect-product {
+	float:left;
+	padding-left:18px;
+	width:48px;
+	height:14px;
+	margin:3px 0px;
+	line-height:14px;
+	background:url(../images/index_icon.png) -104px -179px no-repeat;
+}
+.share-product {
+	float:right;
+	height:20px;
+	width:auto;
+}
+.share-product li {
+	float:left;
+}
+.share-product li a {
+	display:block;
+	width:20px;
+	height:20px;
+	margin-left:10px;
+	background-image:url(../images/index_icon.png);
+	background-repeat:no-repeat;
+}
+#weibo-icon {
+	background-position:-156px -89px;}
+#t-qq-icon {
+	background-position:-177px -89px;}
+#qzone-icon {
+	background-position:-198px -89px;}
+#renren-icon {
+	background-position:-219px -89px;}
+#douban-icon {
+	background-position:-240px -89px;}
+#kaixin-icon {
+	background-position:-261px -89px;}
+#weibo-icon:hover {
+	background-position:-156px -68px;}
+#t-qq-icon:hover {
+	background-position:-177px -68px;}
+#qzone-icon:hover {
+	background-position:-198px -68px;}
+#renren-icon:hover {
+	background-position:-219px -68px;}
+#douban-icon:hover {
+	background-position:-240px -68px;}
+#kaixin-icon:hover {
+	background-position:-261px -68px;}
+/*服务与支付*/
+.support-pay {
+	float:right;
+	width:510px;
+	height:37px;
+	background:#f2f2f2;
+	margin-top:12px;
+	padding:10px;
+}
+.support li {
+	float:left;
+	font-size:16px;
+	line-height: 21px;
+	font-family: \5FAE\8F6F\96C5\9ED1,sans-serif;
+	width:105px;
+	height:21px;
+	padding-left:3px;
+	margin-top:6px;
+	background-image:url(../images/index_icon.png);
+	background-repeat:no-repeat;
+}
+.genuine-icon {
+	background-position:-262px -1px;
+}
+.service-icon {
+	background-position:-263px -22px;
+}
+.onTime-icon {
+	background-position:-262px -45px;
+}
+.feedback {
+	float:right;
+	font-size:16px;
+	line-height: 21px;
+	font-family: \5FAE\8F6F\96C5\9ED1,sans-serif;
+	height:21px;
+	margin:8px;
+}
+.left-column {
+	float:left;
+	margin-top:20px;
+	width:200px;
+}
+.right-column {
+	float:right;
+	margin-top:20px;
+	width:790px;
+}
+.similar-products {
+	background:#fff;
+	border:1px solid #e0e0e0;
+}
+.column-head {
+	display:block;
+	width:100%;
+	height:28px;
+	background:#f2f2f2;
+}
+.similar-products  span  h3 {
+	font-size:14px;
+	line-height:28px;
+	text-align:left;
+	margin-left:14px;
+}
+.detailHead {
+	border:none;
+	width:790px;
+	height:28px;
+	background:#f6f6f6;
+}
+.detailHead  li {
+	float:left;
+	height: 26px;
+}
+.detailHead  li a {
+	border-top:2px solid #f6f6f6;
+	float:left;
+	display:block;
+	width:100px;
+	font-size:14px;
+	height: 26px;
+	line-height: 26px;
+}
+.detailHead  li a:hover {
+	background:#fff;
+	text-decoration:none;
+}
+.detailHead .onfocusDetailHead {
+	border-top:2px solid #cc9d58;
+	background:#fff;
+	color:#cc9d58;
+	text-decoration:none;
+}
+#productDetail {
+	margin:10px 0px;
+	display: block;
+}
+.ortherDetail li {
+	display: none;
+}
